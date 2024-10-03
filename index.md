@@ -196,7 +196,7 @@ Please read the slides and suggested reading before the lectures.
     7. May 21  
     Hamband: RDMA Replicated Data Types  
     Farzin Houshmand, Javad Saberlatibari, Mohsen Lesani  
-    PLDI '22 (ACM SIGPLAN Conference on Programming Language Design 
+    PLDI '22 (ACM SIGPLAN Conference on Programming Language Design  
     and Implementation)  
 
     May 23  
