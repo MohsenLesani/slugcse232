@@ -81,8 +81,7 @@ In this course, we will have both lectures by the instructor (in the first half 
 
     We track attendance, and only those that attend regularly will get their grades scaled.  
 
-    See sample questions in the following folder.  
-    [Sample Questions](2.Sample_questions_and_answers/)  
+    See sample questions in the section below [Sample Questions](#sample-questions).
 
 **************************************************
 ## Lecture Topics
@@ -247,7 +246,20 @@ Please read the slides and suggested reading before the lectures.
 **************************************************
 ## Sample Questions
 
-    See sample questions in the following folder.  
-    [Sample Questions](2.Sample_questions_and_answers/)  
+See sample questions in the following folder.  
+
+- [Exercise 1_Solution.pdf](2.Sample_questions_and_answers/Exercise 1_Solution.pdf)
+- [Exercise 1.pdf](2.Sample_questions_and_answers/Exercise 1.pdf)
+- [Exercise 2_Solution.pdf](2.Sample_questions_and_answers/Exercise 2_Solution.pdf)
+- [Exercise 2.pdf](2.Sample_questions_and_answers/Exercise 2.pdf)
+- [Exercise 3.pdf](2.Sample_questions_and_answers/Exercise 3.pdf)
+- [SampleQuestions1.pdf](2.Sample_questions_and_answers/SampleQuestions1.pdf)
+- [SampleQuestions2.pdf](2.Sample_questions_and_answers/SampleQuestions2.pdf)
+- [SampleSolutions1.pdf](2.Sample_questions_and_answers/SampleSolutions1.pdf)
+- [SampleSolutions2_part1.pdf](2.Sample_questions_and_answers/SampleSolutions2_part1.pdf)
+- [SampleSolutions2_part2.pdf](2.Sample_questions_and_answers/SampleSolutions2_part2.pdf)
+- [Spring2020_exam1_solution.pdf](2.Sample_questions_and_answers/Spring2020_exam1_solution.pdf)
+- [Spring2020_exam2_solution.pdf](2.Sample_questions_and_answers/Spring2020_exam2_solution.pdf)
+- [Spring2020_exam3_solution.pdf](2.Sample_questions_and_answers/Spring2020_exam3_solution.pdf)
 
 **************************************************
