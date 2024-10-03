@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Distributed Systems</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="styling.css" />
+</head>
+<body>
+<h1 id="cse-232-distributed-systems">CSE 232: Distributed Systems</h1>
+<h3 id="announcements-catalog-description-class-info-lecture-topics-papers-for-presentation-sample-questions"><a href="#announcements">Announcements</a> | <a href="#catalog-description">Catalog Description</a> | <a href="#class-info">Class Info</a> | <a href="#lecture-topics">Lecture Topics</a> | <a href="#papers-for-presentation">Papers for presentation</a> | <a href="#sample-questions">Sample Questions</a></h3>
+<hr />
+<h2 id="announcements">Announcements:</h2>
+<ul>
+<li><p>The class will be on zoom on Thu 16, and Tue 21. Here is the zoom link<br />
+<code>https://ucr.zoom.us/j/3534791163</code></p></li>
+<li><p>Exam.<br />
+The exam will not include the following slides: 07.terminating-reliable-broadcast.pdf and 08.atomic-commit.pdf. It will include the following: 00.introduction.pdf, 01.reliable-broadcast.pdf, 02.causal-broadcast.pdf, 03.memory-regular.pdf, 04.memory-atomic.pdf, 05.Consensus.pdf, 06.total-order-broadcast.pdf, 09.bitcoin-intro.pdf, 10.byz-reliable-broadcast.pdf, and 11.byz-consensus.pdf</p></li>
+<li><p>The paper schedule page:<br />
+<code>https://docs.google.com/spreadsheets/d/1BqN1j0i4DN_bStqrYNM16OCGO-UtWMRaYqbiXBxszQ8/edit#gid=0</code></p>
+<p>The links to submit the abstracts is in the sheet.</p></li>
+<li><p>Recorded Lecture<br />
+Copy and paste the links to a browser<br />
+Recording 1:<br />
+<code>https://ucr.zoom.us/rec/share/MHIz_mPgPwzrzxQ_SZtwbWRHV4d_pzwc1ul5T2CfLJB1uoo9SZ7ZvNvVMHfasXM6.kVsw_nBR2jg05UGl</code><br />
+Recording 2:<br />
+<code>https://ucr.zoom.us/rec/share/6OaVT7UG04il1YfNy3RlpPwistnL7aqUWfs_IZKn6I64N3qllwBJ9_afa-3SN0fi.qaGPG5DlHnyBf8sS</code></p></li>
+<li><p>There will be a midterm review session on May 17. TA will announce the location.</p></li>
+</ul>
+<hr />
+<h2 id="catalog-description">Catalog Description</h2>
+<p>Distribution is ubiquitous in modern computing systems. For example, today’s telephone systems, banking systems, global information systems, and aircraft and nuclear power plant control systems all depend critically on distributed algorithms. Robust distributed algorithms should offer reliability and security despite process failures, network disconnections, or even malicious attacks on processes. This course will introduce fundamental distributed computing problems and provides a collection of applicable algorithms. It also presents formal specification and rigorous reasoning about distributed algorithms. The course follows a modular and layered approach to the implementation of distributed abstractions. It covers reliable broadcast, causal broadcast, total-order broadcast, distributed shared memory, consensus variants including blockchain consensus, atomic commit and terminating reliable broadcast, and replicated systems. The course considers processes that are subject to crashes and also malicious attacks by non-cooperating processes.</p>
+<p>In this course, we will have both lectures by the instructor (in the first half of the class), and presentations by students (in the second half of the class). The presenter presents a paper or related papers and leads the discussion.</p>
+<hr />
+<h2 id="class-info">Class Info</h2>
+<h3 id="team">Team:</h3>
+<p>    Instructor:<br />
+        Mohsen Lesani<br />
+        <a href="mailto:mlesani@ucsc.edu" class="email">mlesani@ucsc.edu</a><br />
+    TA:<br />
+        Karthik Krishnaraj Bhat<br />
+        <a href="mailto:kabhat@ucsc.edu" class="email">kabhat@ucsc.edu</a></p>
+<h3 id="lectures">Lectures:</h3>
+<p>    T/Th 3:20-4:55pm<br />
+    Cowell 134</p>
+<h3 id="course-material-at-dropbox">Course Material at Dropbox:</h3>
+<p>    https://www.dropbox.com/scl/fo/0rsvypiv97ketway1hnh8/h?rlkey=mrpsf0b39qzcl1l4vc3k0zvrf&amp;dl=0</p>
+<h3 id="textbook">Textbook:</h3>
+<p>    Introduction to Reliable and Secure Distributed Programming<br />
+    Christian Cachin, Rachid Guerraoui, Luís Rodrigues<br />
+    Second Edition, Springer, 2011, XIX, 320 pages, ISBN-13: 978-3-642-15259-7<br />
+    DOI: doi:10.1007/978-3-642-15260-3<br />
+    http://distributedprogramming.net/index.shtml</p>
+<h3 id="office-hours">Office hours:</h3>
+<p>    TA:<br />
+        Wednesday (In Person) 12pm - 1pm<br />
+        Upper Floor/Level, Science and Engineering Library, Room 332<br />
+        Friday (Zoom) 2.30pm - 3.30pm:<br />
+        https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1<br />
+        Passcode: yz74Ww<br />
+        You can ask questions during the office hours, or post them on the discussion section on Canvas.</p>
+<p>    Instructor:<br />
+        Please email me so that I know that you want to come to the office hours.<br />
+        I am in most days. You can also email me and we can find a time to meet.</p>
+<h3 id="evaluation">Evaluation:</h3>
+<p>    One Exam (midterm from lectures in the first half of the class): 50%. May 23 in the class<br />
+    Presentation and discussion: 50%<br />
+    Project: extra credit</p>
+<p>    We track attendance, and only those that attend regularly will get their grades scaled.</p>
+<p>    See sample questions in the following folder.<br />
+    <a href="2.Sample_questions_and_answers/">Sample Questions</a></p>
+<hr />
+<h2 id="lecture-topics">Lecture Topics</h2>
+<p>We may have multiple lectures on a topic.<br />
+Please read the slides and suggested reading before the lectures.</p>
+<h3 id="introduction">0. Introduction</h3>
+<p>    <a href="1.Slides/00.introduction.pdf">Slides</a><br />
+    Introduction Components, Process Abstraction, Communication Abstraction,     Time Abstraction<br />
+    Reading: Chapter 1 Sections 1.4, and Chapter 2 Sections 2.2, 2.4, 2.6 of the Textbook</p>
+<h3 id="reliable-broadcast">1. Reliable Broadcast</h3>
+<p>    <a href="1.Slides/01.reliable-broadcast.pdf">Slides</a><br />
+    Reading: Chapter 3 Sections 3.2, 3.3, 3.4, 3.9 of the Textbook</p>
+<h3 id="causal-broadcast">2. Causal Broadcast</h3>
+<p>    <a href="1.Slides/02.causal-broadcast.pdf">Slides</a><br />
+    Reading: Chapter 3 Section 3.9 of the Textbook</p>
+<h3 id="shared-memory-regular">3. Shared Memory, Regular</h3>
+<p>    <a href="1.Slides/03.memory-regular.pdf">Slides</a><br />
+    Reading: Chapter 4 Sections 4.2 of the Textbook</p>
+<h3 id="shared-memory-atomic">4. Shared Memory, Atomic</h3>
+<p>    <a href="1.Slides/04.memory-atomic.pdf">Slides</a><br />
+    Reading: Chapter 4 Sections 4.3, 4.4 of the Textbook</p>
+<h3 id="consensus-and-quorums">5. Consensus and Quorums</h3>
+<p>    <a href="1.Slides/05.Consensus.pdf">Slides</a><br />
+    Reading: Chapter 2 Section 2.7, and Chapter 5 Section 5.1, 5.2, 5.3 of the Textbook</p>
+<h3 id="total-order-broadcast">6. Total order Broadcast</h3>
+<p>    <a href="1.Slides/06.total-order-broadcast.pdf">Slides</a><br />
+    Reading: Chapter 6 Section 6.1, 6.2 of the Textbook</p>
+<h3 id="terminating-reliable-broadcast">7. Terminating Reliable Broadcast</h3>
+<p>    <a href="1.Slides/07.terminating-reliable-broadcast.pdf">Slides</a><br />
+    Reading: Chapter 6 Section 6.3 of the Textbook</p>
+<h3 id="atomic-commit">8. Atomic Commit</h3>
+<p>    <a href="1.Slides/08.atomic-commit.pdf">Slides</a><br />
+    Reading: Chapter 6 Section 6.6 of the Textbook</p>
+<h3 id="view-synchronous-communication">9. View Synchronous Communication</h3>
+<p>    <a href="1.Slides/09.view-synch-comm.pdf">Slides</a><br />
+    Reading: Chapter 6 Section 6.8 of the Textbook</p>
+<h3 id="introduction-to-bitcoin">10. Introduction to Bitcoin</h3>
+<p>    <a href="1.Slides/09.bitcoin-intro.pdf">Slides</a><br />
+    Reading: Bitcoin A Peer-to-Peer Electronic Cash System. Nakamoto. White paper. 2008.</p>
+<h3 id="byzantine-broadcast">11. Byzantine Broadcast</h3>
+<p>    <a href="1.Slides/10.byz-reliable-broadcast.pdf">Slides</a><br />
+    Reading: Chapter 3 Sections 3.10, 3.11, 3.12 of the Textbook</p>
+<h3 id="byzantine-consensus">12. Byzantine Consensus</h3>
+<p>    <a href="1.Slides/11.byz-consensus.pdf">Slides</a><br />
+    Reading: Chapter 5 Section 5.6 of the Textbook</p>
+<h3 id="coordination-synthesis">13. Coordination Synthesis</h3>
+<p>    The notion of conflict, and coordination minimization by graph optimization</p>
+<hr />
+<h2 id="papers-for-presentation">Papers for presentation</h2>
+<p>    1. May 14<br />
+    A comprehensive study of Convergent and Commutative Replicated Data Types.<br />
+    M. Shapiro, N. Preguica, C. Baquero, M. Zawirski.<br />
+    2011.</p>
+<p>    2. May 14<br />
+    Coordination Avoidance in Database Systems.<br />
+    P. Bailis, A. Fekete, M. J. Franklin, A. Ghodsi, J. M. Hellerstein, I. Stoica.<br />
+    VLDB 2014.</p>
+<p>    3. May 16<br />
+    Checking Invariant Confluence, In Whole or In Parts.<br />
+    M. Whittaker, J. M. Hellerstein<br />
+    VLDB 20.</p>
+<p>    4. May 16<br />
+    Hamsaz: Replication Coordination Analysis and Synthesis<br />
+    Farzin Houshmand, Mohsen Lesani<br />
+    POPL ’19 (ACM SIGPLAN Symposium on Principles of Programming Languages)</p>
+<p>    5. May 21 (This date has 3 presentation)<br />
+    Efficient Numerical Error Bounding for Replicated Network Services.<br />
+    VLDB 2001. Haifeng Yu, Amin Vahdat.</p>
+<p>    6. May 21<br />
+    Hampa: Solver-aided Recency-Aware Replication<br />
+    Xiao Li, Farzin Houshmand, Mohsen Lesani<br />
+    CAV ’20 (International Conference on Computer-Aided Verification)</p>
+<p>    7. May 21<br />
+    Hamband: RDMA Replicated Data Types<br />
+    Farzin Houshmand, Javad Saberlatibari, Mohsen Lesani<br />
+    PLDI ’22 (ACM SIGPLAN Conference on Programming Language Design     and Implementation)</p>
+<p>    May 23<br />
+    Exam</p>
+<p>    8. May 28<br />
+    Language-based Information-Flow Security.<br />
+    A. Sabelfeld, A. C. Myers.<br />
+    JSAC 2003</p>
+<p>    9. May 28<br />
+    Secure Program Partitioning<br />
+    S. Zdancewic, L. Zheng, N. Nystrom, A. C. Myers<br />
+    TOCS 2002.</p>
+<p>    10. May 30<br />
+    Hamraz: Resilient Partitioning and Replication<br />
+    Xiao Li, Farzin Houshmand, Mohsen Lesani<br />
+    S&amp;P ’22 (IEEE Symposium on Security and Privacy)</p>
+<p>    11. May 30<br />
+    Federated Byzantine Quorum Systems.<br />
+    A. G. Perez, A. Gotsman<br />
+    OPODIS 2018.</p>
+<p>    12. June 4<br />
+    Deconstructing Stellar Consensus.<br />
+    A. G. Perez, M. A. Schett<br />
+    OPODIS 2019.</p>
+<p>    13. June 4<br />
+    Quorum Subsumption for Heterogeneous Quorum Systems<br />
+    Xiao Li, Eric Chan, Mohsen Lesani<br />
+    DISC ’23 (The International Symposium on Distributed Computing)</p>
+<p>    14. June 6<br />
+    Atomic cross-chain swaps<br />
+    Maurice Herlihy<br />
+    PODC 2018 (ACM symposium on principles of distributed computing. 2018)</p>
+<p>    15. June 6<br />
+    Cross-Chain Transactions<br />
+    Narges Shadab, Farzin Houshmand, Mohsen Lesani<br />
+    ICBC ’20 (IEEE International Conference on Blockchain and Cryptocurrency)</p>
+<hr />
+<h2 id="sample-questions">Sample Questions</h2>
+<p>    See sample questions in the following folder.<br />
+    <a href="2.Sample_questions_and_answers/">Sample Questions</a></p>
+<hr />
+</body>
+</html>
