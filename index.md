@@ -6,7 +6,7 @@
 ## Announcements:
 
 - The class will be on zoom on Thu 16, and Tue 21. Here is the zoom link  
-        `https://ucr.zoom.us/j/3534791163`
+        `removed`  
 
 - Exam.  
    The exam will not include the following slides: 07.terminating-reliable-broadcast.pdf and 08.atomic-commit.pdf. It will include the following: 00.introduction.pdf, 01.reliable-broadcast.pdf, 02.causal-broadcast.pdf, 03.memory-regular.pdf, 04.memory-atomic.pdf, 05.Consensus.pdf, 06.total-order-broadcast.pdf, 09.bitcoin-intro.pdf, 10.byz-reliable-broadcast.pdf, and 11.byz-consensus.pdf  
