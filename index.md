@@ -156,7 +156,7 @@ Please read the slides and suggested reading before the lectures.
 
 ### 13. Coordination Synthesis
 
-    [Slides](1.Slides/13.coordination-synthesis.pdf)  
+    [Slides](1.Slides/13.coordination-synthesis.pdf)   
     The notion of conflict, and coordination minimization by graph optimization
 
 **************************************************
