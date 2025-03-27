@@ -48,7 +48,7 @@ In this course, we will have both lectures by the instructor, and presentations 
         TBA
 
     Instructor: \
-        Thu 9:30-10:30am \
+        Tue 9:30-10:30am \
         Please email me so that I know that you want to come to the office hours.   
         I am in most days. You can also email me and we can find a time to meet.
 
