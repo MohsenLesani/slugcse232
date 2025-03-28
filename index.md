@@ -38,7 +38,7 @@ In this course, we will have both lectures by the instructor, and presentations 
 ***********************************************
 ## Teaching Team:
 - Instructor:
-   - Mohsen Lesani
+   - [Mohsen Lesani](https://mohsenlesani.github.io/)
    - <mlesani@ucsc.edu>  
 - TA:   
    - TBA
