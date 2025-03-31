@@ -5,7 +5,6 @@ University of California, Santa Cruz,  Spring 2025
 To see press html, ctrl+alt+o.
 -->
 
-
 ***********************************************
 ### |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
 
@@ -196,15 +195,16 @@ Please read the slides and suggested reading before the lectures.
 
 # Evaluation:
 - Three Assignments: 10% each
-   - Assignment 1: April 22
-   - Assignment 2: May 22
-   - Assignment 3: May 31
-- Midterm Exam: 35%
+   - Written Assignment 1: Release: April 8, Submission: April 15
+   - Written Assignment 2: Release: April 29, Submission: May 6
+   - Programming Assignment: Release: May 6, Submission: May 29
+   - Written Assignment 3: Release: May 27, Submission: June 3
+- Midterm Exam: 30%
    - May 20 in the class
-- Final Exam: 35%
-   - Finals week in the class
 - Presentation and discussion: extra credit
-   - Four presentations in the last week
+   - Four presentations in the last week, June 3 and 5
+- Final Exam: 30%
+   - Finals week, June 11, 4-7pm, in the class
 
 We post the assignments and
 and you submit your solutions on
@@ -212,7 +212,43 @@ and you submit your solutions on
    
 - We keep track of attendance, and only those that attend regularly will get their grades scaled.  
 
+<!--CSE 232 Schedule
+
+April
+1   1                3
+2   8   H1r       10
+3   15 H1        17 
+4   22              24
+5   29  H2r      1
+May
+6   6   H2 PAr  8
+7   13              15
+->
+8    20 M         22 Solve Midterm, PA discussion
+9    27 H3r      29 PA
+June
+10  3   H3       5   4 Presentations
+
+Final: June 11, 4-7pm-->
+
+
 <!--- See sample questions in the section below [Sample Questions](#sample-questions).-->
 
 ***********************************************
 
+
+<!-- How to write bullet lists -->
+<!--<div class="blist">
+- item
+   - inner item
+   - inner item second
+- item second
+</div>-->
+
+<!-- How to write numbered lists -->
+<!--<div class="nlist">
+1. item
+   1. inner item
+   1. inner item second   
+1. item second
+</div>-->
