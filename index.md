@@ -194,7 +194,7 @@ Please read the slides and suggested reading before the lectures.
 ***********************************************
 
 # Evaluation:
-- Three Assignments: 10% each
+- Four Assignments: 10% each
    - Written Assignment 1: Release: April 8, Submission: April 15
    - Written Assignment 2: Release: April 29, Submission: May 6
    - Programming Assignment: Release: May 6, Submission: May 29
