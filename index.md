@@ -40,8 +40,8 @@ In this course, we will have both lectures by the instructor, and presentations 
    - [Mohsen Lesani](https://mohsenlesani.github.io/)
    - <mlesani@ucsc.edu>  
 - TA:   
-   - TBA
-   - ...
+   - Karthik Krishnaraj Bhat 
+   - <kabhat@ucsc.edu>
 
 ### Office hours:
 - TA:  
@@ -229,7 +229,7 @@ May
 June
 10  3   H3       5   4 Presentations
 
-Final: June 11, 4-7pm-->
+3Final: June 11, 4-7pm-->
 
 
 <!--- See sample questions in the section below [Sample Questions](#sample-questions).-->
