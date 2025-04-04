@@ -45,7 +45,9 @@ In this course, we will have both lectures by the instructor, and presentations 
 
 ### Office hours:
 - TA:  
-   - TBA
+   - 3pm-4pm Wednesdays via Zoom
+   - Discussion session: 11am-12pm Fridays via Zoom
+   - [Zoom link](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
 
 - Instructor:
    - Tue 9:30-10:30am
@@ -208,7 +210,7 @@ Please read the slides and suggested reading before the lectures.
 
 We post the assignments and
 and you submit your solutions on
-[Canvas](https://canvas.ucsc.edu/courses/82502).
+
    
 - We keep track of attendance, and only those that attend regularly will get their grades scaled.  
 
