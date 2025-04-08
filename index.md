@@ -87,7 +87,10 @@ In this course, we will have both lectures by the instructor, and presentations 
    - Physical Sciences 130
 
 We may have multiple lectures on a topic.
-Please read the slides and suggested reading before the lectures.  
+Please read the slides and suggested reading before the lectures.
+
+In order to best observe the animations in the slides, 
+view them in the "Single page" view rather than "Continuous scroll" view.
 
 ### 0. Introduction
 
