@@ -38,10 +38,10 @@ In this course, we will have both lectures by the instructor, and presentations 
 ## Teaching Team:
 - Instructor:
    - [Mohsen Lesani](https://mohsenlesani.github.io/)
-   - <mlesani@ucsc.edu>  
+   - <<mlesani@ucsc.edu>>
 - TA:   
    - Karthik Krishnaraj Bhat 
-   - <kabhat@ucsc.edu>
+   - <<kabhat@ucsc.edu>>
 
 ### Office hours:
 - TA:  
@@ -60,7 +60,7 @@ In this course, we will have both lectures by the instructor, and presentations 
 <!-- ### Lectures: -->
 - Time and place:
    - Tuesday Thursday 01:30-03:05pm
-   - Physical Sciences 140
+   - Physical Sciences 130
 
 We may have multiple lectures on a topic.
 Please read the slides and suggested reading before the lectures.  
