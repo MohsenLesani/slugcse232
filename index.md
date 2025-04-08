@@ -209,7 +209,7 @@ Please read the slides and suggested reading before the lectures.
    - Finals week, June 11, 4-7pm, in the class
 
 We post the assignments and
-and you submit your solutions on
+and you submit your solutions on [Canvas](https://canvas.ucsc.edu/courses/82502).
 
    
 - We keep track of attendance, and only those that attend regularly will get their grades scaled.  
