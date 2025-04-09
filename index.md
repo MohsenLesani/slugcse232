@@ -44,8 +44,10 @@ To see press html, ctrl+alt+o.
 ## Links
 
 - Announcements: [Canvas](https://canvas.ucsc.edu/courses/82502/announcements)
-- Assignments: [Gradescope](https://www.gradescope.com/courses/1015997) 
 - Lecture Recordings: [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888)
+- Assignments: 
+   - Quesions: [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
+   - Submit solutions:  [Gradescope](https://www.gradescope.com/courses/1015997)
 - Discussion session: [Zoom](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
 
 
@@ -235,8 +237,10 @@ The class is automatically recorded and you can view the recordings in the class
 
 # Evaluation:
 
-We post the assignments and
-and you submit your solutions on [Gradescope](https://www.gradescope.com/courses/1015997).
+We post the assignments on
+[Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
+and you submit your solutions on 
+[Gradescope](https://www.gradescope.com/courses/1015997).
 
 - Four Assignments: 10% each
    - Written Assignment 1: Release: April 8, Submission: April 15
