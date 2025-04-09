@@ -41,9 +41,18 @@ To see press html, ctrl+alt+o.
 <!-- ---------------------------------------------------------------------- -->
 
 ***********************************************
+## Links
+
+- Announcements: [Canvas](https://canvas.ucsc.edu/courses/82502/announcements)
+- Assignments: [Gradescope](https://www.gradescope.com/courses/1015997) 
+- Lecture Recordings: [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888)
+- Discussion session: [Zoom](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
+
+
+<!--***********************************************
 ## Announcements:
 
-We will make announcements in [Canvas](https://canvas.ucsc.edu/courses/82502).
+We will make announcements in [Canvas](https://canvas.ucsc.edu/courses/82502/announcements).-->
 
 ***********************************************
 ## Description
@@ -91,6 +100,8 @@ Please read the slides and suggested reading before the lectures.
 
 In order to best observe the animations in the slides, 
 view them in the "Single page" view rather than "Continuous scroll" view.
+
+The class is automatically recorded and you can view the recordings in the class channel on [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888).
 
 ### 0. Introduction
 
@@ -223,6 +234,10 @@ view them in the "Single page" view rather than "Continuous scroll" view.
 ***********************************************
 
 # Evaluation:
+
+We post the assignments and
+and you submit your solutions on [Gradescope](https://www.gradescope.com/courses/1015997).
+
 - Four Assignments: 10% each
    - Written Assignment 1: Release: April 8, Submission: April 15
    - Written Assignment 2: Release: April 29, Submission: May 6
@@ -234,14 +249,8 @@ view them in the "Single page" view rather than "Continuous scroll" view.
    - Four presentations in the last week, June 3 and 5
 - Final Exam: 30%
    - Finals week, June 11, 4-7pm, in the class
-
-We post the assignments and
-and you submit your solutions on [Canvas](https://canvas.ucsc.edu/courses/82502).
-
    
 - We keep track of attendance, and only those that attend regularly will get their grades scaled.  
-
-
 
 <!--
 CSE 232 Schedule
