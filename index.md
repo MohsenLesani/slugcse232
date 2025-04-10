@@ -46,7 +46,7 @@ To see press html, ctrl+alt+o.
 - Announcements: [Canvas](https://canvas.ucsc.edu/courses/82502/announcements)
 - Lecture Recordings: [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888)
 - Assignments: 
-   - Quesions: [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
+   - Questions: [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
    - Submit solutions:  [Gradescope](https://www.gradescope.com/courses/1015997)
 - Discussion session: [Zoom](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
 
