@@ -85,7 +85,7 @@ In this course, we will have both lectures by the instructor, and presentations 
    - [Zoom link](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
 
 - Instructor:
-   - Tue 9:30-10:30am
+   - Tue 11-12am
    - Please email me so that I know that you want to come to the office hours.   
    - I am in most days. You can also email me and we can find a time to meet.
 
