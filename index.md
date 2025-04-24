@@ -203,8 +203,7 @@ The class is automatically recorded and you can view the recordings in the class
    - PODC 2018 (ACM symposium on principles of distributed computing. 2018)  
 
 ***********************************************
-
-# Evaluation:
+# Evaluation
 
 We post the assignments on
 [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
@@ -246,4 +245,13 @@ June
 Final: June 11, 4-7pm
 -->
 
+## Academic Integrity
+
+One of the joys of university life is socializing and working with your classmates. We want you to make friends with each other and discuss the material. That said, I expect all assignments (code, write-ups, and tests) to be your own original work. If you work together with a classmate on an assignment, please mention this, e.g. in the comments of your code. If you use a figure you didn’t create in a write-up, then it needs a citation. Please review the [university's policy on plagiarism](https://guides.library.ucsc.edu/citesources/plagiarism). This class has a zero-tolerance policy on cheating. Please don’t do it.
+
+As a final note on cheating: the economic condition facing computer science graduates is volatile in the near future. It is crucial that you benefit from your time at the university, and learn the concepts thoroughly. If you cheat, you will not be able to stand out from others who put in the effort when it comes time to find a job. Cheating will have a devastating impact on your own career opportunities. Just don’t do it.
+
+We are in an exciting time for AI, especially for tools like Github co-pilot and LLMs (e.g., ChatGPT). These tools have incredible potential and they are improving every day. However, the educational community has not had sufficient time to understand their impact on learning objectives. This class has been designed to be taken without the use of AI tools. They are not allowed to be used in the course. If we suspect abuse, then we may implement random audits of assignments, where you will be asked to explain your implementation in detail.
+If you are interested in seeing how these tools can help, please feel free to use them after you have submitted a non-AI version of the homework.
+  
 ***********************************************
