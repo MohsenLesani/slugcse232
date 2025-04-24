@@ -182,7 +182,7 @@ ol {
   padding-left: 0em;  
 }
 
-ul ul, ol ol {
+ul ul, ol ol, ol ul, ul ol {
   margin: .3em 0;
   padding-left: 1em;
 }
@@ -191,6 +191,13 @@ ul li {
   margin: 0 0 0 0;
   margin-bottom: 0;
   list-style-type: none;  
+}
+
+ul ol li {
+  margin: 0 0 0 0;
+  margin-bottom: 0;
+  list-style-type: decimal;   
+  list-style-position: inside;
 }
 
 ol li {
@@ -204,7 +211,7 @@ ol li {
    margin-left: 15px;
 }
 
-.nlist ol li {
+/*.nlist ol li {
    list-style-type: decimal; 
    list-style-position: inside;
 }
@@ -218,7 +225,7 @@ ol li {
   margin: 0 0 0 0;
   margin-bottom: 0;
    list-style-type: none;  
-}
+}*/
 
 li p:last-child {
   margin-bottom: 0;
