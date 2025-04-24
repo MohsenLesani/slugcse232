@@ -28,15 +28,6 @@ To see press html, ctrl+alt+o.
 </div>
 -->
 
-<!-- How to write numbered lists -->
-<!--
-<div class="nlist">
-1. item
-   1. inner item
-   1. inner item second   
-1. item second
-</div>
--->
 
 <!-- ---------------------------------------------------------------------- -->
 
@@ -92,6 +83,7 @@ In this course, we will have both lectures by the instructor, and presentations 
 ***********************************************
 ## Lectures
 
+
 <!-- ### Lectures: -->
 - Time and place:
    - Tuesday Thursday 01:30-03:05pm
@@ -105,90 +97,98 @@ view them in the "Single page" view rather than "Continuous scroll" view.
 
 The class is automatically recorded and you can view the recordings in the class channel on [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888).
 
-### 0. Introduction
 
--
-   - [Slides](1.Slides/00.introduction.pdf)  
-   - Introduction Components, Process Abstraction, Communication Abstraction, Time Abstraction  
-   - Reading: Chapter 1 Sections 1.4, and Chapter 2 Sections 2.2, 2.4, 2.6 of the textbook
-    
-### 1. Reliable Broadcast
+1. Introduction
+<!--  -->
+   -
+      - [[Slides]](1.Slides/introduction.pdf)  
+      - Introduction Components, Process Abstraction, Communication Abstraction, Time Abstraction  
+      - Reading: Sections 1.4, and Sections 2.2, 2.4, 2.6 of the textbook
 
--
-   - [Slides](1.Slides/01.reliable-broadcast.pdf)  
-   - Reading: Chapter 3 Sections 3.2, 3.3, 3.4, 3.9 of the textbook
+1. Reliable Broadcast
+<!--  -->
+   -
+      - [[Slides]](1.Slides/reliable-broadcast.pdf)  
+      - Reading: Sections 3.2, 3.3, 3.4, 3.9 of the textbook
 
-### 2. Causal Broadcast
+1. Causal Broadcast
+<!--  -->
+   -
+      - [[Slides]](1.Slides/causal-broadcast.pdf)  
+      - Reading: Section 3.9 of the textbook
 
--
-   - [Slides](1.Slides/02.causal-broadcast.pdf)  
-   - Reading: Chapter 3 Section 3.9 of the textbook
+1. Shared Memory, Regular
+<!--  -->
+   -
+      - [[Slides]](1.Slides/memory-regular.pdf)  
+      - Reading: Sections 4.2 of the textbook
 
-### 3. Shared Memory, Regular
+1. Shared Memory, Atomic
+<!--  -->
+   -
+      - [[Slides]](1.Slides/memory-atomic.pdf)  
+      - Reading: Sections 4.3, 4.4 of the textbook
 
--
-   - [Slides](1.Slides/03.memory-regular.pdf)  
-   - Reading: Chapter 4 Sections 4.2 of the textbook
+1. Consensus and Quorums
+<!--  -->
+   -
+      - [[Slides]](1.Slides/Consensus.pdf)  
+      - Reading: Section 2.7, and Section 5.1, 5.2, 5.3 of the textbook
 
-### 4. Shared Memory, Atomic
+1. Total order Broadcast
+<!--  -->
+   -
+      - [[Slides]](1.Slides/total-order-broadcast.pdf)  
+      - Reading: Section 6.1, 6.2 of the textbook
 
--
-   - [Slides](1.Slides/04.memory-atomic.pdf)  
-   - Reading: Chapter 4 Sections 4.3, 4.4 of the textbook
+1. Atomic Commit
+<!--  -->
+   -
+      - [[Slides]](1.Slides/atomic-commit.pdf)  
+      - Reading: Section 6.6 of the textbook
 
-### 5. Consensus and Quorums
+1. Bitcoin
+<!--  -->
+   -
+      - [[Slides]](1.Slides/bitcoin.pdf)  
+      - Reading: Bitcoin A Peer-to-Peer Electronic Cash System. Nakamoto. White paper. 2008.  
 
--
-   - [Slides](1.Slides/05.Consensus.pdf)  
-   - Reading: Chapter 2 Section 2.7, and Chapter 5 Section 5.1, 5.2, 5.3 of the textbook
+1. Randomized consensus
+<!--  -->
+   -
+      - [[Slides]](1.Slides/randomized-consensus.pdf)  
+      - Reading: Section 5.5 of the textbook
 
-### 6. Total order Broadcast
+1. Terminating Reliable Broadcast
+<!--  -->
+   -
+      - [[Slides]](1.Slides/terminating-reliable-broadcast.pdf)  
+      - Reading: Section 6.3 of the textbook
 
--
-   - [Slides](1.Slides/06.total-order-broadcast.pdf)  
-   - Reading: Chapter 6 Section 6.1, 6.2 of the textbook
+1. View Synchronous Communication
+<!--  -->
+   -
+      - [[Slides]](1.Slides/view-synch-comm.pdf)  
+      - Reading: Section 6.8 of the textbook
 
-### 7. Terminating Reliable Broadcast
+1. Byzantine Broadcast
+<!--  -->
+   -
+      - [[Slides]](1.Slides/byz-reliable-broadcast.pdf)  
+      - Reading: Sections 3.10, 3.11, 3.12 of the textbook
 
--
-   - [Slides](1.Slides/07.terminating-reliable-broadcast.pdf)  
-   - Reading: Chapter 6 Section 6.3 of the textbook
+1. Byzantine Consensus
+<!--  -->
+   -
+      - [[Slides]](1.Slides/byz-consensus.pdf)  
+      - Reading: Section 5.6 of the textbook
 
-### 8. Atomic Commit
+1. Coordination Synthesis
+<!--  -->
+   -
+      - [[Slides]](1.Slides/coordination-synthesis.pdf)   
+      - The notion of conflict, and coordination minimization by graph optimization
 
--
-   - [Slides](1.Slides/08.atomic-commit.pdf)  
-   - Reading: Chapter 6 Section 6.6 of the textbook
-
-### 9. View Synchronous Communication
-
--
-   - [Slides](1.Slides/09.view-synch-comm.pdf)  
-   - Reading: Chapter 6 Section 6.8 of the textbook
-
-### 10. Introduction to Bitcoin
-
--
-   - [Slides](1.Slides/09.bitcoin-intro.pdf)  
-   - Reading: Bitcoin A Peer-to-Peer Electronic Cash System. Nakamoto. White paper. 2008.  
-
-### 11. Byzantine Broadcast
-    
--
-   - [Slides](1.Slides/10.byz-reliable-broadcast.pdf)  
-   - Reading: Chapter 3 Sections 3.10, 3.11, 3.12 of the textbook
-
-### 12. Byzantine Consensus
-
--
-   - [Slides](1.Slides/11.byz-consensus.pdf)  
-   - Reading: Chapter 5 Section 5.6 of the textbook
-
-### 13. Coordination Synthesis
-
--
-   - [Slides](1.Slides/13.coordination-synthesis.pdf)   
-   - The notion of conflict, and coordination minimization by graph optimization
 
 ***********************************************
 ## Papers for presentation
