@@ -123,7 +123,7 @@ The class is automatically recorded and you can view the recordings in the class
    - [[Slides]](1.Slides/consensus.pdf)  
    - Reading: Section 2.7, and Section 5.1, 5.2, 5.3 of the textbook
 
-1. Total order Broadcast  
+1. Total order Broadcast   
    - [[Slides]](1.Slides/total-order-broadcast.pdf)  
    - Reading: Section 6.1, 6.2 of the textbook
 
