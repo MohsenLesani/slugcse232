@@ -18,7 +18,7 @@ University of California, Santa Cruz,  Spring 2025 \
 To see press html, ctrl+alt+o.
 -->
 
-<!-- How to write bullet lists -->
+<!-- How to write bullet lists --> 
 <!--
 <div class="blist">
 - item
