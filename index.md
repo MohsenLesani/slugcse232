@@ -125,7 +125,7 @@ The class is automatically recorded and you can view the recordings in the class
 
 1. Total order Broadcast   
    - [[Slides]](1.Slides/total-order-broadcast.pdf)  
-   - Reading: Section 6.1, 6.2 of the textbook  
+   - Reading: Section 6.1, 6.2 of the textbook   
 
 1. Atomic Commit
    - [[Slides]](1.Slides/atomic-commit.pdf)  
