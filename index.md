@@ -50,9 +50,9 @@ Distribution is ubiquitous in modern computing systems. For example, today's tel
 In this course, we will have both lectures by the instructor, and presentations by students. The presenter presents a paper or related papers and leads the discussion.
 
 ### Textbook:
-- Introduction to Reliable and Secure Distributed Programming  
-- Christian Cachin, Rachid Guerraoui, Luís Rodrigues  
-- Second Edition, Springer, 2011, XIX, 320 pages, ISBN-13: 978-3-642-15259-7  
+- Introduction to Reliable and Secure Distributed Programming
+- Christian Cachin, Rachid Guerraoui, Luís Rodrigues
+- Second Edition, Springer, 2011, XIX, 320 pages, ISBN-13: 978-3-642-15259-7
 - DOI: doi:10.1007/978-3-642-15260-3  
 
 ***********************************************
@@ -91,7 +91,6 @@ In order to best observe the animations in the slides,
 view them in the "Single page" view rather than "Continuous scroll" view.
 
 The class is automatically recorded and you can view the recordings in the class channel on [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888).
-
 
 1. Introduction
    - [[Slides]](1.Slides/introduction.pdf)  
