@@ -2,7 +2,7 @@
 University of California, Santa Cruz,  Spring 2025 \
 
 ***********************************************
-### |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
+ |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
 
 <!-- ### | [Announcements](#announcements)   -->
 <!-- [Papers for presentation](#papers-for-presentation) | [Sample Questions](#sample-questions) | -->
