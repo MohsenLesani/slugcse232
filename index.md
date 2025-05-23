@@ -1,7 +1,7 @@
 # CSE 232: Distributed Systems
 <div class="fancy">
 University of California, Santa Cruz,  Spring 2025 \
-</div> 
+</div>
 
 ***********************************************
  |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
