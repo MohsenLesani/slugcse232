@@ -10,15 +10,25 @@ html {
 }
 
 body {
-  color: #000;
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-  font-size: 12px;
-  line-height: 1.7;
-  padding: 1em;
-  margin: auto;
-  max-width: 42em;
-  background: #fefefe;
+   color: #000;
+/*   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif; */
+   font-family: "Open Sans", Courier, serif;
+   font-size: 12px;
+   line-height: 1.7;
+   padding: 1em;
+   margin: auto;
+   max-width: 42em;
+   background: #fefefe;
 }
+
+/*.TextStyle {
+   font-family: "Open Sans", Courier;
+   font-size: 15px;
+   text-align: justify;
+   font-style: normal;
+   font-weight: normal;
+}*/
+
 
 a {
 /*   color: #0645ad; */
@@ -72,6 +82,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
   color:  #303C6C;
   line-height: 125%;
   margin-top: 1em;
@@ -177,13 +188,13 @@ sub {
 
 ul {
   margin: 1em 0;
-  padding: 0 0 0 2em;
+/*   padding: 0 0 0 2em; */
   padding-left: 0em;  
 }
 
 ol {
   margin: 1em 0;
-  padding: 0 0 0 2em;
+/*   padding: 0 0 0 2em; */
   padding-left: 0em;  
 }
 
