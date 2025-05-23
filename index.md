@@ -1,5 +1,7 @@
 # CSE 232: Distributed Systems
+<div class="fancy">
 University of California, Santa Cruz,  Spring 2025 \
+</div>
 
 ***********************************************
  |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
@@ -16,12 +18,20 @@ University of California, Santa Cruz,  Spring 2025 \
 To see press html, ctrl+alt+o.
 -->
 
-<!-- How to write bullet lists --> 
+<!-- To write numbered lists -->
+<!--
+1. first item
+   1. first item first
+   2. first item second
+2. second item
+-->
+
+<!-- To write bullet lists: --> 
 <!--
 <div class="blist">
 - item
-   - inner item
-   - inner item second
+ - inner item
+ - inner item second
 - item second
 </div>
 -->
@@ -156,45 +166,41 @@ The class is automatically recorded and you can view the recordings in the class
 ***********************************************
 ## Papers for presentation
 
--
-   - A comprehensive study of Convergent and Commutative Replicated Data Types.
-   - M. Shapiro, N. Preguica, C. Baquero, M. Zawirski.
-   - Doctoral dissertation, Inria–Centre Paris-Rocquencourt; INRIA 2011
+- Hamsaz: Replication Coordination Analysis and Synthesis
+- Farzin Houshmand, Mohsen Lesani
+- POPL '19 (ACM SIGPLAN Symposium on Principles of Programming Languages)  
+
+<!--  -->
+
+- Hambazi: Spatial Coordination Synthesis for Augmented Reality
+- Yi-Zhen Tsai, Jiasi Chen, Mohsen Lesani
+- OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
+
+<!--  -->
+
+- Hamraz: Resilient Partitioning and Replication
+- Xiao Li, Farzin Houshmand, Mohsen Lesani
+- S&P '22 (IEEE Symposium on Security and Privacy)  
+
+<!--  -->
+
+- Atomic cross-chain swaps
+- Maurice Herlihy
+- PODC 2018 (ACM symposium on principles of distributed computing. 2018)  
+
+Other papers:
+
+- A comprehensive study of Convergent and Commutative Replicated Data Types.
+- M. Shapiro, N. Preguica, C. Baquero, M. Zawirski.
+- Doctoral dissertation, Inria–Centre Paris-Rocquencourt; INRIA 2011
 
 <!--     -->
 
--
-   - Hamsaz: Replication Coordination Analysis and Synthesis
-   - Farzin Houshmand, Mohsen Lesani
-   - POPL '19 (ACM SIGPLAN Symposium on Principles of Programming Languages)  
+- Deconstructing Stellar Consensus.
+- A. G. Perez, M. A. Schett
+- OPODIS 2019.  
 
 <!--  -->
-
--
-   - Hambazi: Spatial Coordination Synthesis for Augmented Reality
-   - Yi-Zhen Tsai, Jiasi Chen, Mohsen Lesani
-   - OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
-
-<!--  -->
-
--
-   - Hamraz: Resilient Partitioning and Replication
-   - Xiao Li, Farzin Houshmand, Mohsen Lesani
-   - S&P '22 (IEEE Symposium on Security and Privacy)  
-
-<!--  -->
-
--
-   - Deconstructing Stellar Consensus.
-   - A. G. Perez, M. A. Schett
-   - OPODIS 2019.  
-
-<!--  -->
-
--
-   - Atomic cross-chain swaps
-   - Maurice Herlihy
-   - PODC 2018 (ACM symposium on principles of distributed computing. 2018)  
 
 ***********************************************
 # Evaluation

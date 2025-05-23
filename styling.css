@@ -2,23 +2,35 @@
  * I add this to html files generated with pandoc.
  */
 
-html {
-  font-size: 100%;
-  overflow-y: scroll;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+html * {
+/*   font-size: 100%; */
+   font-size: 15px;
+   /*overflow-y: scroll;*/
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%; 
 }
 
 body {
    color: #000;
 /*   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif; */
-   font-family: "Open Sans", Courier, serif;
-   font-size: 12px;
+   font-family: "Open Sans", sans-serif, Courier;
+   font-size: 15px;
    line-height: 1.7;
    padding: 1em;
    margin: auto;
    max-width: 42em;
    background: #fefefe;
+}
+
+.fancy p {
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  color:  #303C6C;
+  margin: 1em 0;
+}
+
+.emph p {
+   color: green;
+  margin: 1em 0;
 }
 
 /*.TextStyle {
@@ -188,14 +200,17 @@ sub {
 
 ul {
   margin: 1em 0;
-/*   padding: 0 0 0 2em; */
+  padding: 0 0 0 2em;
   padding-left: 0em;  
+  list-style-type: none;  
 }
 
 ol {
-  margin: 1em 0;
+/*   margin: 1em 0; */
 /*   padding: 0 0 0 2em; */
-  padding-left: 0em;  
+/*   padding-left: 0em;   */
+  list-style-position: outside;
+  padding-left: 1.4rem;
 }
 
 ul ul, ol ol, ol ul, ul ol {
@@ -206,30 +221,64 @@ ul ul, ol ol, ol ul, ul ol {
 ul li {
   margin: 0 0 0 0;
   margin-bottom: 0;
-  list-style-type: none;  
-}
-
-ul ol li {
-  margin: 0 0 0 0;
-  margin-bottom: 0;
-  list-style-type: decimal;   
-  list-style-position: inside;
+  padding-left: 0em;
 }
 
 ol li {
   margin: 0 0 0 0;
   margin-bottom: 0;
-  list-style-position: inside;  
+  padding-left: 0em;
 }
 
-.blist ul li {
-   list-style-type: disc;
-   margin-left: 15px;
+ul ol li {
+/*   margin: 0 0 0 0; */
+/*   margin-bottom: 0; */
+  list-style-type: decimal;   
+  list-style-position: outside;
+  padding-left: 1.4rem;
 }
+
+/* ************************************* */
+/* margin: top | right | bottom | left */
+
+/*   margin-top: 0; */
+/*   padding: 0 0 0 2em; */
+/*    margin-left: 40px; */
+/*    padding-left: 0px;   */
+
+
+.blist ul {
+margin-top: 0;
+/* margin-left: 10px; */
+padding-left: 1rem;
+list-style-type: disc;
+list-style-position: outside;
+/* padding-left: 5rem; */
+}
+
+/* margin-left: 40px; */
+
+.blist ul ul {
+margin-top: 0;
+margin-left: 10px;
+list-style-type: disc;
+list-style-position: outside;
+}
+
+/*.blist li {
+display: list-item;
+}*/
+
+/*.blist ul ul li {
+  list-style-type: disc;
+  margin-left: 15px;
+}*/
+
+/* ************************************* */
 
 /*.nlist ol li {
    list-style-type: decimal; 
-   list-style-position: inside;
+   list-style-position: outside;
 }
 
 .nlist ol ul, ol ol {
@@ -363,11 +412,11 @@ table td {
   pre, blockquote {
     border: 1px solid #999;
     padding-right: 1em;
-    page-break-inside: avoid;
+    page-break-outside: avoid;
   }
 
   tr, img {
-    page-break-inside: avoid;
+    page-break-outside: avoid;
   }
 
   img {
