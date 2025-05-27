@@ -218,7 +218,7 @@ and you submit your solutions on
 - Midterm Exam: 30%
    - May 20 in the class
 - Presentation and discussion: extra credit
-   - Four presentations in the last week, June 3 and 5
+   - Four presentations in the last two week
 - Final Exam: 30%
    - Finals week, June 11, 4-7pm, in the class
    

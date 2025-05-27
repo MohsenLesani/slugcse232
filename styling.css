@@ -34,6 +34,10 @@ body {
   margin: 1em 0;
 }
 
+.right p {
+   text-align: right
+}
+
 /*.TextStyle {
    font-family: "Open Sans", Courier;
    font-size: 15px;
@@ -320,7 +324,7 @@ img {
   vertical-align: middle;
   /* The template had the following.  */
 /*   max-width: 100%;  */
-  max-width: 35%;
+  max-width: 33%;
 /*   max-width: 30%; */
 /*   height: auto; */
 /*   width: auto; */
