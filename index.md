@@ -155,9 +155,9 @@ The class is automatically recorded and you can view the recordings in the class
    - [[Slides]](1.Slides/byz-reliable-broadcast.pdf)  
    - Reading: Sections 3.10, 3.11, 3.12 of the textbook
 
-1. Byzantine Consensus
+<!--1. Byzantine Consensus
    - [[Slides]](1.Slides/byz-consensus.pdf)  
-   - Reading: Section 5.6 of the textbook
+   - Reading: Section 5.6 of the textbook-->
 
 <!--1. Coordination Synthesis
    - [[Slides]](1.Slides/coordination-synthesis.pdf)   
