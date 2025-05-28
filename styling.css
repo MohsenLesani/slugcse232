@@ -95,6 +95,17 @@ p {
 }
 
 
+.banner p {
+   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
+   color:  #303C6C;
+   line-height: 125%;
+   margin-top: 1em;
+   margin-bottom: 0em;
+   font-weight: normal;   
+   font-size: 1.8em;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;   
   color:  #303C6C;
@@ -108,23 +119,23 @@ h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.7em;
-}
-
-h2 {
   font-size: 1.4em;
 }
 
-h3 {
-  font-size: 1.2em;
+h2 {
+  font-size: 1.2em;  
 }
 
-h4 {
+h3 {
   font-size: 0.9em;
 }
 
-h5 {
+h4 {
   font-size: 0.7em;
+}
+
+h5 {
+  font-size: 0.5em;
 }
 
 h6 {
