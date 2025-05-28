@@ -203,7 +203,7 @@ Other papers:
 <!--  -->
 
 ***********************************************
-# Evaluation
+## Evaluation
 
 We post the assignments on
 [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
@@ -245,7 +245,7 @@ June
 Final: June 11, 4-7pm
 -->
 
-## Academic Integrity
+### Academic Integrity
 
 One of the joys of university life is socializing and working with your classmates. We want you to make friends with each other and discuss the material. That said, I expect all assignments (code, write-ups, and tests) to be your own original work. If you work together with a classmate on an assignment, please mention this, e.g. in the comments of your code. If you use a figure you didn’t create in a write-up, then it needs a citation. Please review the [university's policy on plagiarism](https://guides.library.ucsc.edu/citesources/plagiarism). This class has a zero-tolerance policy on cheating. Please don’t do it.
 

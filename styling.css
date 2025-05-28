@@ -131,6 +131,32 @@ h6 {
   font-size: 0.5em;
 }
 
+/* To have numbers for headers */
+
+/*#page {
+	counter-reset: heading;
+	counter-reset: subheading;
+	counter-reset: subsubheading;
+}
+h1:before {
+	counter-increment: heading;
+}
+h1 {
+	counter-reset: subheading;
+}
+h2:before {
+	content: counter(subheading)". ";
+	counter-increment: subheading;
+}
+h2 {
+	counter-reset: subsubheading;
+}
+h3:before {
+	content: counter(subheading)"."counter(subsubheading)". ";
+	counter-increment: subsubheading;
+}*/
+
+
 blockquote {
   color: #666666;
   margin: 0;
