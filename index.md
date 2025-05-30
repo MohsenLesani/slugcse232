@@ -1,12 +1,13 @@
+<a name="home"></a>
 <div class="navbar">
-   | [Home](index.html) |
+   | [Home](#home) |
    [Description](#description) |
    [Teaching Team](#teaching-team) |
    [Lectures](#lectures) |
    [Papers](#papers-for-presentation) |
    [Evaluation](#evaluation) |
 </div>
-
+<!-- To pad for the nav bar -->
 \ 
 
 <div class="banner">
