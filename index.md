@@ -1,9 +1,10 @@
 <div class="navbar">
+   | [Home](index.html) |
    [Description](#description) |
    [Teaching Team](#teaching-team) |
    [Lectures](#lectures) |
    [Papers](#papers-for-presentation) |
-   [Evaluation](#evaluation)
+   [Evaluation](#evaluation) |
 </div>
 
 <div class="banner">
