@@ -1,3 +1,11 @@
+<div class="navbar">
+   [Description](#description) \
+   [Teaching Team](#teaching-team) \
+   [Lectures](#lectures) \
+   [Papers](#papers-for-presentation) \
+   [Evaluation](#evaluation)
+</div>
+
 <div class="banner">
 CSE 232: Distributed Systems
 </div>
@@ -5,8 +13,8 @@ CSE 232: Distributed Systems
 University of California, Santa Cruz,  Spring 2025 \
 </div>
 
-***********************************************
- |  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |
+<!-- *********************************************** -->
+ <!--|  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |-->
 
 <!-- ## | [Announcements](#announcements)  -->
 <!-- [Papers for presentation](#papers-for-presentation ) | [Sample Questions](#sample-questions) | -->
