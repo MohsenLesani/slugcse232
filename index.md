@@ -10,13 +10,12 @@
 <!-- To pad for the nav bar -->
 \ 
 
-<div class="banner">
+<p class="banner">
 CSE 232: Distributed Systems
-</div>
-<div class="fancy">
+</p>
+<p class="fancy">
 University of California, Santa Cruz,  Spring 2025 \
-</div>
-
+</p>
 
 <!-- *********************************************** -->
  <!--|  [Description](#description) | [Teaching Team](#teaching-team) | [Lectures](#lectures) | [Papers](#papers-for-presentation) | [Evaluation](#evaluation) |-->
@@ -29,13 +28,14 @@ University of California, Santa Cruz,  Spring 2025 \
 ***********************************************
 # Links
 
+<ul class="airlist">
 - Announcements: [Canvas](https://canvas.ucsc.edu/courses/82502/announcements)
 - Lecture Recordings: [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888)
 - Assignments: 
    - Questions: [Canvas](https://canvas.ucsc.edu/courses/82502/assignments)
    - Submit solutions:  [Gradescope](https://www.gradescope.com/courses/1015997)
 - Discussion session: [Zoom](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
-
+</ul>
 
 <!--***********************************************
 # Announcements:
@@ -50,39 +50,45 @@ Distribution is ubiquitous in modern computing systems. For example, today's tel
 In this course, we will have both lectures by the instructor, and presentations by students. The presenter presents a paper or related papers and leads the discussion.
 
 ## Textbook:
+<ul class="airlist">
 - Introduction to Reliable and Secure Distributed Programming
 - Christian Cachin, Rachid Guerraoui, Luís Rodrigues
 - Second Edition, Springer, 2011, XIX, 320 pages, ISBN-13: 978-3-642-15259-7
 - DOI: doi:10.1007/978-3-642-15260-3  
+</ul>
 
 ***********************************************
 # Teaching Team:
+<ul class="airlist">
 - Instructor:
    - [Mohsen Lesani](https://mohsenlesani.github.io/)
    - <<mlesani@ucsc.edu>>
-- TA:   
+- TA:
    - Karthik Krishnaraj Bhat 
    - <<kabhat@ucsc.edu>>
-
+</ul>
+ 
 ## Office hours:
-- TA:  
+<ul class="airlist">
+- TA:
    - 3pm-4pm Wednesdays via Zoom
    - Discussion session: 11am-12pm Fridays via Zoom
    - [Zoom link](https://ucsc.zoom.us/j/6673631998?pwd=fvbxE7heYPstzHcJbSqlWXaetZLFxb.1)
 
 - Instructor:
    - Tue 11-12am
-   - Please email me so that I know that you want to come to the office hours.   
+   - Please email me so that I know that you want to come to the office hours.
    - I am in most days. You can also email me and we can find a time to meet.
+</ul>
 
 ***********************************************
 # Lectures
 
-
-<!-- ## Lectures: -->
+<ul class="airlist">
 - Time and place:
    - Tuesday Thursday 01:30-03:05pm
    - Physical Sciences 130
+</ul>
 
 We may have multiple lectures on a topic.
 Please read the slides and suggested reading before the lectures.
@@ -92,9 +98,10 @@ view them in the "Single page" view rather than "Continuous scroll" view.
 
 The class is automatically recorded and you can view the recordings in the class channel on [Yuja](https://media.ucsc.edu/P/VideoManagement/MediaLibrary/MediaChannel/1780888).
 
+<ul class="airlist">
 1. Introduction
-   - [[Slides]](1.Slides/introduction.pdf)  
-   - Introduction Components, Process Abstraction, Communication Abstraction, Time Abstraction  
+   - [[Slides]](1.Slides/introduction.pdf)
+   - Introduction Components, Process Abstraction, Communication Abstraction, Time Abstraction
    - Reading: Sections 1.4, and Sections 2.2, 2.4, 2.6 of the textbook
 
 1. Reliable Broadcast
@@ -102,7 +109,7 @@ The class is automatically recorded and you can view the recordings in the class
    - Reading: Sections 3.2, 3.3, 3.4, 3.9 of the textbook
 
 1. Causal Broadcast
-   - [[Slides]](1.Slides/causal-broadcast.pdf)  
+   - [[Slides]](1.Slides/causal-broadcast.pdf)
    - Reading: Section 3.9 of the textbook
 
 1. Shared Memory, Regular
@@ -110,7 +117,7 @@ The class is automatically recorded and you can view the recordings in the class
    - Reading: Sections 4.2 of the textbook
 
 1. Shared Memory, Atomic
-   - [[Slides]](1.Slides/memory-atomic.pdf)  
+   - [[Slides]](1.Slides/memory-atomic.pdf)
    - Reading: Sections 4.3, 4.4 of the textbook
 
 1. Consensus and Quorums  
@@ -149,6 +156,8 @@ The class is automatically recorded and you can view the recordings in the class
    - [[Slides]](1.Slides/byz-consensus.pdf)
    - Reading: Section 5.6 of the textbook
 
+</ul>
+
 <!--1. Coordination Synthesis
    - [[Slides]](1.Slides/coordination-synthesis.pdf)   
    - The notion of conflict, and coordination minimization by graph optimization-->
@@ -156,41 +165,61 @@ The class is automatically recorded and you can view the recordings in the class
 ***********************************************
 # Papers for presentation
 
-- Hamsaz: Replication Coordination Analysis and Synthesis
-- Farzin Houshmand, Mohsen Lesani
-- POPL '19 (ACM SIGPLAN Symposium on Principles of Programming Languages)  
+- 
+   <ul class="airlist">
+   - Hambazi: Spatial Coordination Synthesis for Augmented Reality
+   - OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
+   - Yi-Zhen Tsai, Jiasi Chen, Mohsen Lesani
+   - [Paper](companion/oopsla25/OOPSLA25.pdf),
+   [BibTex](companion/oopsla25/paper.bib),
+   [More](companion/oopsla25/index.html)
+   </ul>
+   
+- 
+   <ul class="airlist">
+   - Hamsaz: Replication Coordination Analysis and Synthesis
+   - Farzin Houshmand, Mohsen Lesani
+   - POPL '19 (ACM SIGPLAN Symposium on Principles of Programming Languages)  
+   </ul>
 
-<!--  -->
+- 
+   <ul class="airlist">
+   - Hambazi: Spatial Coordination Synthesis for Augmented Reality
+   - Yi-Zhen Tsai, Jiasi Chen, Mohsen Lesani
+   - OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
+   </ul>
 
-- Hambazi: Spatial Coordination Synthesis for Augmented Reality
-- Yi-Zhen Tsai, Jiasi Chen, Mohsen Lesani
-- OOPSLA '25 (ACM SIGPLAN conference on Object-oriented Programming, Systems, Languages, and Applications)
+- 
+   <ul class="airlist">
+   - Hamraz: Resilient Partitioning and Replication
+   - Xiao Li, Farzin Houshmand, Mohsen Lesani
+   - S&P '22 (IEEE Symposium on Security and Privacy)  
+   </ul>
 
-<!--  -->
 
-- Hamraz: Resilient Partitioning and Replication
-- Xiao Li, Farzin Houshmand, Mohsen Lesani
-- S&P '22 (IEEE Symposium on Security and Privacy)  
-
-<!--  -->
-
-- Atomic cross-chain swaps
-- Maurice Herlihy
-- PODC 2018 (ACM symposium on principles of distributed computing. 2018)  
+- 
+   <ul class="airlist">
+   - Atomic cross-chain swaps
+   - Maurice Herlihy
+   - PODC 2018 (ACM symposium on principles of distributed computing. 2018)
+   </ul>
 
 Other papers:
 
-- A comprehensive study of Convergent and Commutative Replicated Data Types.
-- M. Shapiro, N. Preguica, C. Baquero, M. Zawirski.
-- Doctoral dissertation, Inria–Centre Paris-Rocquencourt; INRIA 2011
+- 
+   <ul class="airlist">
+   - A comprehensive study of Convergent and Commutative Replicated Data Types.
+   - M. Shapiro, N. Preguica, C. Baquero, M. Zawirski.
+   - Doctoral dissertation, Inria–Centre Paris-Rocquencourt; INRIA 2011
+   </ul>
 
-<!--     -->
+- 
+   <ul class="airlist">
+   - Deconstructing Stellar Consensus.
+   - A. G. Perez, M. A. Schett
+   - OPODIS 2019.
+   </ul>
 
-- Deconstructing Stellar Consensus.
-- A. G. Perez, M. A. Schett
-- OPODIS 2019.  
-
-<!--  -->
 
 ***********************************************
 # Evaluation
@@ -200,6 +229,7 @@ We post the assignments on
 and you submit your solutions on 
 [Gradescope](https://www.gradescope.com/courses/1015997).
 
+<ul class="airlist">
 - Four Assignments: 10% each
    - Written Assignment 1: Release: April 8, Submission: April 15
    - Written Assignment 2: Release: April 29, Submission: May 6
@@ -213,6 +243,7 @@ and you submit your solutions on
    - Finals week, June 11, 4-7pm, in the class
    
 - We keep track of attendance, and only those that attend regularly will get their grades scaled.  
+</ul>
 
 <!--
 CSE 232 Schedule
